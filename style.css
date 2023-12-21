@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #662882;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1s ease;
+}
+header img {
+    border: 3px solid #824faf; 
+    border-radius: 50%; 
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #824faf;
+    padding: 10px;
+    animation: fadeIn 1s ease
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #824faf; 
+    border: 1px solid #824faf;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+    background-color: #c89fde; 
+}
+section {
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(rgb(188, 156, 204), rgb(230, 227, 214));
+  border-radius: 8px;
+  box-shadow: 0 0 13px rgba(91, 17, 194, 0.1);
+  animation: fadeInUp 1s ease;
+}
+  
+
+.project-section img {
+    width: 20%; 
+    margin: 20px 1%; 
+    box-sizing: border-box; 
+    cursor: pointer;
+    border: 2px solid #74469c; 
+    border-radius: 8px; 
+    transition: box-shadow 0.3s ease; 
+  }
+
+
+.project-section img:hover {
+    width: 35%;
+    margin: 20px 10%;;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    animation: fadeInUp 3s ease;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }   
+}
+
+ @keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+ }
