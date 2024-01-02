@@ -7,3 +7,4 @@ On this porfolio, I used many css styles to get the look to my liking. Border st
 The code will run a sophisticated portfolio, with bright color pallets and show my Projects, Profile, and contact info.
 ## User Error
 A few user errors I got along the way were not setting up the brackets correctly, and making my pictures clickable. However, I made the title of the images as a hyperlink (currently not linked to a website).
+![bilalk789 github io_Portfolio_ (1)](https://github.com/Bilalk789/Portfolio/assets/153332797/49f5a0f9-166c-4bc9-a4f4-06b852af9e59)
